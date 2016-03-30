@@ -51,13 +51,13 @@ namespace iTextSharpTest
                 template1.AddTemplate(page, 0, 0);
                 cb.AddTemplate(template1, 0, 0);
 
-                PdfTemplate template2 = cb.CreateTemplate(pageSize.Width, pageSize.Height);
-                template2.Rectangle(toMove.Left, toMove.Bottom, toMove.Width, toMove.Height);
-                template2.Clip();
-                template2.NewPath();
-                template2.AddTemplate(page, 0, 0);
-                //cb.AddTemplate(template2, -20, -2);
-                // step 4
+                //PdfTemplate template2 = cb.CreateTemplate(pageSize.Width, pageSize.Height);
+                //template2.Rectangle(toMove.Left, toMove.Bottom, toMove.Width, toMove.Height);
+                //template2.Clip();
+                //template2.NewPath();
+                //template2.AddTemplate(page, 0, 0);
+                ////cb.AddTemplate(template2, -20, -2);
+                //// step 4
 
                 document.Close();
                 reader.Close();
