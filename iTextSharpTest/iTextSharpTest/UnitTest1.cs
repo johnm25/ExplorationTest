@@ -40,7 +40,7 @@ namespace iTextSharpTest
                 document.Open();
 
                 // step 4
-                PdfImportedPage page = writer.GetImportedPage(reader, 1);
+                PdfImportedPage page = writer.GetImportedPage(reader, 1); 
                 PdfContentByte cb = writer.DirectContent;
 
                 PdfTemplate template1 = cb.CreateTemplate(pageSize.Width, pageSize.Height);
