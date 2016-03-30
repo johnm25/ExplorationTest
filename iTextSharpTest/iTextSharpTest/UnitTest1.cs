@@ -1,8 +1,7 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-namespace iTextSharpTest
+﻿namespace iTextSharpTest
 {
+    using System;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
     using System.IO;
     using Helper;
     using iTextSharp;
