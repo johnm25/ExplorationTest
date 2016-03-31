@@ -20,14 +20,14 @@
         [TestMethod]
         public void TestMethod1()
         {
-            var resourceName = "Brev_fra_Sor__Kommune.pdf";
+            var resourceName = "kk 20.pdf";
             var gg = HelperResource.ReadResourceByte(resourceName);
 
             PdfReader reader = new PdfReader(gg);
 
             // step 1
             Rectangle pageSize = reader.GetPageSize(1);
-            Rectangle toMove = new Rectangle(100, 500, 200, 600);
+            Rectangle toMove = new Rectangle(320, 55, 576, 374);
             Document document = new Document(pageSize);
 
             // step 2
@@ -39,7 +39,7 @@
                 document.Open();
 
                 // step 4
-                PdfImportedPage page = writer.GetImportedPage(reader, 1); 
+                PdfImportedPage page = writer.GetImportedPage(reader, 4); 
                 PdfContentByte cb = writer.DirectContent;
 
                 PdfTemplate template1 = cb.CreateTemplate(pageSize.Width, pageSize.Height);

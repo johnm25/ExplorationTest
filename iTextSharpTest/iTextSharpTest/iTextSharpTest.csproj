@@ -65,7 +65,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Fixture\Brev_fra_Sor__Kommune.PDF" />
+    <EmbeddedResource Include="Fixture\KK 20.pdf" />
     <None Include="packages.config" />
   </ItemGroup>
   <Choose>
